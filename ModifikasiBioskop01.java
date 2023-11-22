@@ -42,5 +42,9 @@ public class ModifikasiBioskop01 {
         for (String i : penonton[2]){
             System.out.println(i);
         }
+
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Penonotom pada baris ke-" + (i+1) + ": " + String.join(",", penonton[i]));
+        }
     }
 }
